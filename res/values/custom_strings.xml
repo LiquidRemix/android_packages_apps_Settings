@@ -218,6 +218,14 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <!-- Android debugging -->
+    <string name="adb_enable">Android debugging</string>
+    <string name="adb_enable_summary">Enable the Android Debug Bridge (ADB) interface</string>
+
+    <!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
+
     <!-- Screen Stabilization -->
     <string name="screen_stabilization_title">Screen Stabilization</string>
     <string name="screen_stabilization_summary">Configure Screen-Stabilizer Values</string>
@@ -259,4 +267,5 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
+
 </resources>
