@@ -288,6 +288,10 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
 
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Less frequent notification sounds</string>
     <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
