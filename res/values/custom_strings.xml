@@ -71,4 +71,7 @@
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
 
+    <!-- Unlink notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+
 </resources>
