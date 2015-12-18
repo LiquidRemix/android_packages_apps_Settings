@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2017 The Nitrogen Project
-     Copyright (C) 2017 The Liquid Remix Project
+<!-- Copyright (C) 2015 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,15 +13,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
 
-    <!-- Switchbar background -->
-    <color name="switchbar_background_color">?android:attr/colorSecondary</color>
-
-    <!-- Expanded desktop -->
-    <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
-    <drawable name="expanded_item_bg">@android:color/background_light</drawable>
-    <color name="expanded_button_color_normal">#4CAF50</color>
-    <color name="expanded_button_color_close">#F44336</color>
-
-</resources>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/expanded_desktop_title" >
+        <ListPreference
+                android:key="expanded_desktop_style"
+                android:title="@string/expanded_desktop_style"
+                android:entries="@array/expanded_desktop_entries"
+                android:entryValues="@array/expanded_desktop_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>
