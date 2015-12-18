@@ -67,6 +67,11 @@
         android:title="@string/developer_smallest_width" />
 
     <Preference
+        android:key="expanded_desktop"
+        android:title="@string/power_menu_expanded_desktop"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
+    <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
