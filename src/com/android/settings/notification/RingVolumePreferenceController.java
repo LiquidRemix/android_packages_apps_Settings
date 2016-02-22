@@ -131,7 +131,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
                 mMuteIcon = R.drawable.ic_notifications_off_24dp;
                 mPreference.showIcon(R.drawable.ic_notifications_off_24dp);
             } else {
-                mPreference.showIcon(R.drawable.ic_audio_ring);
+                mPreference.showIcon(R.drawable.ic_ring);
             }
         }
     }
@@ -183,5 +183,4 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
             }
         }
     }
-
 }
