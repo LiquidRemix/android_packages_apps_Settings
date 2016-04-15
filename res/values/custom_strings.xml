@@ -151,7 +151,6 @@
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
 
-<<<<<<< HEAD:res/values/custom_strings.xml
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
 	
