@@ -40,6 +40,7 @@ import com.android.settings.applications.DirectoryAccessDetails;
 import com.android.settings.applications.ManageDomainUrls;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.VrListenerSettings;
 import com.android.settings.applications.appinfo.AppInfoDashboardFragment;
@@ -267,7 +268,8 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             LiquidLoungeSettings.class.getName(),
             HeadsUpSettings.class.getName(),
-            ScreenStabilization.class.getName()
+            ScreenStabilization.class.getName(),
+            RunningServices.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -306,10 +308,12 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+
             // LiquidRemix settings
             Settings.LiquidLoungeSettingsActivity.class.getName(),
             // Screen Stabilization
             Settings.ScreenStabilizationActivity.class.getName(),
-
+            // Running Services
+            Settings.DevRunningServicesActivity.class.getName()
     };
 }

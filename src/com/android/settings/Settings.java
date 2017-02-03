@@ -176,6 +176,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenStabilizationActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 
 	// LiquidRemix settings
     public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
