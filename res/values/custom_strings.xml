@@ -282,4 +282,7 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="fingerprint_swipe_to_dismiss_suggestion_summary">Swipe left or right on the fingerprint sensor</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>

@@ -202,4 +202,5 @@ public class Settings extends SettingsActivity {
     public static class SmartbarSettingsActivity extends SettingsActivity {}
     public static class PulseSettingsActivity extends SettingsActivity {}
     public static class ButtonsSettingsActivity extends SettingsActivity {}
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
