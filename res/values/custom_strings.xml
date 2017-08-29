@@ -34,4 +34,7 @@
     <string name="liquidlounge_title">Liquid Lounge</string>
     <string name="liquidlounge_activity_summary">Personalize custom features</string>
 
+    <!-- Development settings -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
 </resources>
