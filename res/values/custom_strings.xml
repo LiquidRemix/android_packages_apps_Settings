@@ -22,6 +22,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
 
+    <!-- LIQUID device maintainer -->
+    <string name="device_maintainer">Maintainer</string>
+
     <!-- LIQUID about -->
     <string name="liquid_about_title">About Liquid Remix</string>
     <string name="liquid_about_info">ROM</string>
