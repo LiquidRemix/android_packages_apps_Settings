@@ -20,6 +20,9 @@
     <!-- LIQUID version -->
     <string name="liquid_version">Liquid Remix Build</string>
 
+    <!-- LIQUID device maintainer -->
+    <string name="device_maintainer">Maintainer</string>
+
 	<!-- LIQUID about -->
 	<string name="liquid_about_title">About Liquid Remix</string>
 	<string name="liquid_about_info">ROM</string>
