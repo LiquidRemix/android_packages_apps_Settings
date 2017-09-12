@@ -3119,6 +3119,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.liquid.liquidlounge.fragments.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpSettingsActivity"
