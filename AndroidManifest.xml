@@ -3386,8 +3386,10 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.liquid.liquidlounge.recents.HAFRAppListActivity" />
 
-         <!-- Heads up settings activity. -->
+        <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpSettingsActivity"
                 android:label="@string/heads_up_notifications"
                 android:excludeFromRecents="true">
@@ -3400,6 +3402,7 @@
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
