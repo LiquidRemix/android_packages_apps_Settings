@@ -62,6 +62,11 @@
         android:summary="@string/summary_placeholder"
         android:title="@string/display_auto_rotate_title" />
 
+    <Preference
+        android:id="display_rotation"
+        android:title="@string/display_rotation"
+        android:fragment="com.android.settings.display.DisplayRotation"/>
+
     <com.android.settings.display.DensityPreference
         android:key="density"
         android:title="@string/developer_smallest_width" />
