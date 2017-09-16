@@ -134,6 +134,7 @@ import com.liquid.liquidlounge.fragments.FlingSettings;
 import com.liquid.liquidlounge.fragments.NavbarSettings;
 import com.liquid.liquidlounge.fragments.PulseSettings;
 import com.liquid.liquidlounge.fragments.SmartbarSettings;
+import com.liquid.liquidlounge.fragments.DisplayRotation;
 
 public class SettingsGateway {
 
@@ -253,12 +254,13 @@ public class SettingsGateway {
             EnterprisePrivacySettings.class.getName(),
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
-			LiquidLoungeSettings.class.getName(),
+            LiquidLoungeSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            DisplayRotation.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -302,6 +304,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.DisplayRotationActivity.class.getName(),
     };
 }
