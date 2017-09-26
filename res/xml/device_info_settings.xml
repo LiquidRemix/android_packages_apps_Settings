@@ -21,6 +21,11 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- LIQUID about -->
+    <PreferenceScreen
+        android:key="liquid_logo"
+	android:layout="@layout/liquid_logo" />
+
     <!-- LIQUID version -->
     <Preference
         android:key="liquid_version"
