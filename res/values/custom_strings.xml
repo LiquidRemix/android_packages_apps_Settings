@@ -17,7 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- ROM version -->
+    <!-- LIQUID Version -->
     <string name="liquid_version">Liquid Remix Build</string>
+
+	<!-- About LIQUID -->
+	<string name="liquid_about_title">About Liquid Remix</string>
+	<string name="liquid_about_info">ROM</string>
+	<string name="liquid_about_info_summary">Liquid Remix is a project reborn by the creator of Liquid Smooth.With the help of Dabug123 they have brought back this amazing project based on lineage os with caf on top.</string>
+	<string name="liquid_about_devs">TeamSmooth</string>
+	<string name="liquid_about_dev_title">Ryan B(liquid0624)</string>
+	<string name="liquid_about_dev_summary">Founder</string>
+	<string name="liquid_about_dev2_title">Paul C (Dabug123)</string>
+	<string name="liquid_about_dev2_summary">CO-Lead/Kernel Dev</string>
 
 </resources>
