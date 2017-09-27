@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The Nitrogen Project
-     Copyright (C) 2017 The Liquid Remix Project
+     Copyright (C) 2018 The Liquid Remix Project
       Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -21,5 +20,19 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+
+    <!-- LIQUID about -->
+    <string name="liquid_about_title">About Liquid Remix</string>
+    <string name="liquid_about_info">ROM</string>
+    <string name="liquid_about_info_summary">Liquid Remix is a project reborn by the creator of Liquid Smooth. With the help of VenkatVV they have brought back this amazing project based on Lineage.</string>
+    <string name="liquid_about_devs">About Team</string>
+    <string name="liquid_about_dev_title">Ryan (liquid0624)</string>
+    <string name="liquid_about_dev_summary">Founder/Lead Dev</string>
+    <string name="liquid_about_dev2_title">VenkatVV (venky_holmes)</string>
+    <string name="liquid_about_dev2_summary">CO-Lead/Core Dev</string>
+    <string name="liquid_telegram_title">Liquid Remix Telegram</string>
+    <string name="liquid_telegram_summary">Tap here to join our telegram chat!</string>
+    <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
+    <string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
 
 </resources>
