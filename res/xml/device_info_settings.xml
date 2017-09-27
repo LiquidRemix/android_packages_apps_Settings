@@ -18,9 +18,10 @@
         android:title="@string/about_settings">
 
 		<!-- LIQUID about -->
-		<PreferenceScreen
+		<Preference
 		        android:key="liquid_logo"
-				android:layout="@layout/liquid_logo" />
+				android:layout="@layout/liquid_logo"
+				android:fragment="com.android.settings.liquid.LiquidAbout" />
 
 		<!-- LIQUID version -->
         <Preference
