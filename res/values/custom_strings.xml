@@ -30,4 +30,8 @@
 	<string name="liquid_about_dev2_title">Paul C (Dabug123)</string>
 	<string name="liquid_about_dev2_summary">CO-Lead/Kernel Dev</string>
 
+	<!-- Liquid Lounge -->
+    <string name="liquidlounge_title">Liquid Lounge</string>
+    <string name="liquidlounge_activity_summary">Personalize custom features</string>
+
 </resources>

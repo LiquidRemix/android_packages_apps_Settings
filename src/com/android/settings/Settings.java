@@ -177,5 +177,8 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SupportDashboardActivity extends SettingsActivity {}
+	
+	// LiquidRemix Settings
+    public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
 
 }
