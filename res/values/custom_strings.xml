@@ -28,4 +28,8 @@
 	<string name="liquid_about_dev_title">Ryan (liquid0624)</string>
 	<string name="liquid_about_dev_summary">Founder</string>
 
+	<!-- Liquid Lounge -->
+    <string name="liquidlounge_title">Liquid Lounge</string>
+    <string name="liquidlounge_activity_summary">Personalize custom features</string>
+
 </resources>
