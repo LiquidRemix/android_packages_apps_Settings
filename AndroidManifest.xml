@@ -3309,5 +3309,18 @@
         <activity android:name="com.liquid.liquidlounge.recents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <!-- Heads up settings activity. -->
+        <activity android:name="Settings$HeadsUpSettingsActivity"
+                android:label="@string/heads_up_notifications"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.liquid.liquidlounge.fragments.HeadsUpSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
     </application>
 </manifest>

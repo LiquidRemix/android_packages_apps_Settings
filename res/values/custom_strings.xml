@@ -143,4 +143,7 @@
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Heads up</string>
+
 </resources>
