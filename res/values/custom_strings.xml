@@ -36,6 +36,10 @@
     <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
     <string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
 
+    <!-- Liquid Lounge -->
+    <string name="liquidlounge_title">Liquid Lounge</string>
+    <string name="liquidlounge_activity_summary">Personalize custom features</string>
+
     <!-- Phone info -->
     <string name="device_info_title">Phone info</string>
 
