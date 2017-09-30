@@ -193,4 +193,5 @@ public class Settings extends SettingsActivity {
 
 	// LiquidRemix settings
     public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
+    public static class HeadsUpSettingsActivity extends SettingsActivity {}
 }
