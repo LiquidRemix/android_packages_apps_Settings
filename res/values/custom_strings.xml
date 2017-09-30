@@ -22,4 +22,11 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Liquid Lounge -->
+    <string name="liquidlounge_title">Liquid Lounge</string>
+    <string name="liquidlounge_activity_summary">Personalize custom features</string>
+
+    <!-- Phone info -->
+    <string name="device_info_title">Phone info</string>
+
 </resources>
