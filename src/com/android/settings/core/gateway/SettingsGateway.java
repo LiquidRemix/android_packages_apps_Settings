@@ -129,6 +129,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.liquid.liquidlounge.LiquidLoungeSettings;
+import com.liquid.liquidlounge.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -249,6 +250,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
 			LiquidLoungeSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
