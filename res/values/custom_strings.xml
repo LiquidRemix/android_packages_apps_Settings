@@ -394,4 +394,10 @@
     <string name="stabilization_position_friction_title">Position friction</string>
     <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
 
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_headset_settings_title">Headset and ringtone settings</string>
+    <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+    <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+    <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
+
 </resources>

@@ -103,6 +103,12 @@
 
     </PreferenceCategory>
 
+    <!-- Headset settings -->
+    <Preference
+        android:key="ringtone_headset_settings"
+        android:title="@string/ringtone_headset_settings_title"
+        android:fragment="com.android.settings.liquid.HeadSet"/>
+
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_ringtone"
