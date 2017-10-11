@@ -58,9 +58,21 @@
         <SwitchPreference
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
-				
-		    <!-- Volume steps -->
-        <PreferenceScreen
+
+        <!-- Increasing ring -->
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+                android:key="increasing_ring"
+                android:defaultValue="false"
+                android:title="@string/increasing_ring_volume_option_title" />
+
+        <!-- Increasing ring volume -->
+        <com.android.settings.notification.IncreasingRingVolumePreference
+                android:key="increasing_ring_volume"
+                android:icon="@drawable/ring_notif_increasing"
+                android:dependency="increasing_ring" />
+
+        <!-- Volume steps -->
+        <Preference
                 android:key="volume_steps"
                 android:title="@string/volume_steps_title"
                 android:fragment="com.android.settings.liquid.VolumeSteps" />
