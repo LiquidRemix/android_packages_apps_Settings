@@ -160,7 +160,7 @@
     <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
 	
 	<!-- Volume Steps -->
-      <string name="volume_steps_title">Уровни громкости</string>
+    <string name="volume_steps_title">Уровни громкости</string>
     <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
     <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
     <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
@@ -220,5 +220,10 @@
     <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
     <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
     <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
 
 </resources>
