@@ -16,13 +16,13 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
-		
+
 		<!-- LIQUID About -->
 		<Preference
 		        android:key="liquid_logo"
-				android:layout="@layout/liquid_about" 
-				       android:fragment="com.android.settings.liquid.LiquidAbout" />
-		
+				android:layout="@layout/liquid_logo" 
+				android:fragment="com.android.settings.liquid.LiquidAbout" />
+
 		<!-- LIQUID version -->
         <Preference
                 android:key="liquid_version"
