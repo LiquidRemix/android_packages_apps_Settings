@@ -151,6 +151,7 @@
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
 
+<<<<<<< HEAD:res/values/custom_strings.xml
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
 	
@@ -186,5 +187,8 @@
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
 
 </resources>

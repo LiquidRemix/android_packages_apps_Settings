@@ -56,7 +56,7 @@
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
 				
-		<!-- Volume Steps -->
+		    <!-- Volume Steps -->
         <PreferenceScreen
                 android:key="volume_steps"
                 android:title="@string/volume_steps_title"
@@ -116,6 +116,11 @@
         <SwitchPreference
           android:key="charging_sounds"
           android:title="@string/charging_sounds_title" />
+
+        <!-- Charging vibration -->
+        <SwitchPreference
+          android:key="charging_vibro"
+          android:title="@string/charging_vibro_title" />
 
         <!-- Docking sounds -->
         <SwitchPreference
