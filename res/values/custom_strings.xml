@@ -191,4 +191,7 @@
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
 
+    <!-- Screenshot sounds -->
+    <string name="screenshot_sound_title">Screenshot sounds</string>
+
 </resources>
