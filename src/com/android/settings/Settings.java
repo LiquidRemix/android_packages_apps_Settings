@@ -205,4 +205,5 @@ public class Settings extends SettingsActivity {
     public static class ButtonsSettingsActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
+    public static class ScreenStabilizationActivity extends SettingsActivity { /* empty */ }
 }

@@ -62,6 +62,7 @@ import com.android.settings.applications.assist.ManageAssist;
 import com.android.settings.bluetooth.BluetoothDeviceDetailsFragment;
 import com.android.settings.bluetooth.BluetoothSettings;
 import com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment;
+import com.android.settings.custom.ScreenStabilization;
 import com.android.settings.dashboard.SupportFragment;
 import com.android.settings.datausage.DataPlanUsageSummary;
 import com.android.settings.datausage.DataUsageList;
@@ -275,7 +276,8 @@ public class SettingsGateway {
             PulseSettings.class.getName(),
             ButtonsSettings.class.getName(),
             RunningServices.class.getName(),
-            SmartPixels.class.getName()
+            SmartPixels.class.getName(),
+            ScreenStabilization.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -321,6 +323,7 @@ public class SettingsGateway {
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.ScreenStabilizationActivity.class.getName()
     };
 }
