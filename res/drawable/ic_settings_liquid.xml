@@ -3,10 +3,11 @@
     android:width="554dp"
     android:height="446dp"
     android:viewportWidth="554"
-    android:viewportHeight="446">
+    android:viewportHeight="446"
+    android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:fillColor="#ff737373"
+        android:fillColor="#FFFFFFFF"
         android:fillAlpha="1.00"
         android:strokeAlpha="1.00"
         android:strokeWidth="1"
@@ -27,7 +28,7 @@
 343.81 285.65 335.78 279.88 330.00 271.97 C 324.06 263.93 319.66 254.84 316.43
 245.41 C 315.35 242.26 314.94 238.86 313.28 235.92 Z" />
     <path
-        android:fillColor="#ff737373"
+        android:fillColor="#FFFFFFFF"
         android:fillAlpha="1.00"
         android:strokeAlpha="1.00"
         android:strokeWidth="1"
