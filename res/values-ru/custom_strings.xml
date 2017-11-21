@@ -72,7 +72,7 @@
     <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 
     <!-- Unlink notification volume -->
-    <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
+    <string name="link_volume_option_title">Объединить громкость звонка и уведомлений</string>
 
     <!-- App Ops Categories -->
     <string name="app_ops_cat_location">Местоположение</string>
