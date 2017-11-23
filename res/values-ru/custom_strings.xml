@@ -45,14 +45,14 @@
     <string name="device_info_title">Информация о телефоне</string>
 
     <!-- Dashboard conditions -->
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions включены</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions выключены</string>
+    <string name="dashboard_conditions_title">Состояния панели управления</string>
+    <string name="summary_dashboard_conditions_enabled">Состояния панели управления включены</string>
+    <string name="summary_dashboard_conditions_disabled">Состояния панели управления выключены</string>
 
     <!-- Dashboard suggestions -->
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions включены</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions выключены</string>
+    <string name="dashboard_suggestions_title">Подсказки панели управления</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки панели управления включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки панели управления выключены</string>
 
     <!-- Scramble layout -->
     <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
