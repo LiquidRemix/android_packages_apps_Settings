@@ -227,6 +227,6 @@
     <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
 	
 	<!-- Display rotation -->
-    <string name="display_rotation">Display rotation</string>
+    <string name="display_rotation">Поворот экрана</string>
 
 </resources>
