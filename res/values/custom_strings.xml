@@ -234,4 +234,10 @@
     <string name="lock_directly_show_pin">Directly show PIN entry</string>
     <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking phone</string>
 
+    <!-- SystemUI Theme -->
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+
 </resources>
