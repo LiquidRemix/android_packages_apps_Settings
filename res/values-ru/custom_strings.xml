@@ -202,11 +202,6 @@
     <string name="night_bright_low">Низкая яркость</string>
     <string name="night_bright_medium">Средняя яркость</string>
 
-    <!-- Ambient Display Brightness -->
-    <string name="ambient_doze_custom_brightness_title">Яркость черно-белого экрана и подсветки при взяти</string>
-    <string name="ambient_doze_auto_brightness_title">Автояркость черно-белого экрана и подсветки при взяти</string>
-    <string name="ambient_doze_auto_brightness_summary">Использовать последнее адаптивное значение яркости для черно-белого экрана и подсветки при взяти</string>
-
     <!-- Expanded Desktop -->
     <string name="power_menu_expanded_desktop">Расширенный рабочий стол</string>
     <string name="expanded_hide_nothing">Ничего не скрывать</string>
