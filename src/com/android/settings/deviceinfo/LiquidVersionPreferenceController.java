@@ -20,10 +20,11 @@ import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
+import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-public class LiquidVersionPreferenceController extends AbstractPreferenceController {
+public class LiquidVersionPreferenceController extends AbstractPreferenceController
+                implements PreferenceControllerMixin {
 
     private static final String LIQUID_VERSION = "liquid_version";
     private static final String LIQUID_PROP = "ro.liquid.version";
