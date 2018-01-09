@@ -239,7 +239,4 @@
     <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
     <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
 
-	<!-- Display rotation -->
-    <string name="display_rotation">Поворот экрана</string>
-
 </resources>
