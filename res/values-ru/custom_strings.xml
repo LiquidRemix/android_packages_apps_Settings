@@ -151,11 +151,6 @@
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
 	
-    <!-- Reset battery stats -->
-    <string name="ok">Ok</string>
-    <string name="menu_stats_reset">Сбросить статистику</string>
-    <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
-	
 	<!-- Volume Steps -->
       <string name="volume_steps_title">Уровни громкости</string>
     <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
