@@ -666,4 +666,7 @@
     <string name="theming_settings_dashboard_icons_plain">Oreo</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Oreo (Accent)</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
 </resources>
