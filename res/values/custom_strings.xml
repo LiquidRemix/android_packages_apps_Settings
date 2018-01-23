@@ -276,4 +276,8 @@
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 
+    <!-- USB mode dialog -->
+    <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
+    <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+
 </resources>

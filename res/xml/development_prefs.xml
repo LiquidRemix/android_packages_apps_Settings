@@ -30,6 +30,12 @@
                 android:targetClass="com.android.settings.SetFullBackupPassword" />
     </Preference>
 
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="show_usb_mode_dialog"
+        android:title="@string/show_usb_mode_dialog_title"
+        android:summary="@string/show_usb_mode_dialog_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="keep_screen_on"
         android:title="@string/keep_screen_on"
