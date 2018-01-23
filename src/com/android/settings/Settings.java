@@ -185,6 +185,7 @@ public class Settings extends SettingsActivity {
     }
     public static class WebViewAppPickerActivity extends SettingsActivity { /* empty */ }
     public static class LegacySupportActivity extends SettingsActivity{ /* empty */ }
+    public static class ColorSettingsActivity extends SettingsActivity { /* empty */ }
 
     // Top level categories for new IA
     public static class NetworkDashboardActivity extends SettingsActivity {}

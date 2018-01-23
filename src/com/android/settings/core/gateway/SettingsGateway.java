@@ -140,6 +140,7 @@ import com.liquid.liquidlounge.fragments.FlingSettings;
 import com.liquid.liquidlounge.fragments.NavbarSettings;
 import com.liquid.liquidlounge.fragments.PulseSettings;
 import com.liquid.liquidlounge.fragments.SmartbarSettings;
+import com.android.settings.aoscp.display.ColorManagerFragment;
 
 public class SettingsGateway {
 
@@ -269,7 +270,8 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            ButtonsSettings.class.getName()
+            ButtonsSettings.class.getName(),
+            ColorManagerFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
