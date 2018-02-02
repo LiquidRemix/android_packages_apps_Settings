@@ -127,6 +127,8 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+	         android:resource="@string/summary_empty" />
         </activity>
 
         <!-- Alias for launcher activity only, as this belongs to each profile. -->
