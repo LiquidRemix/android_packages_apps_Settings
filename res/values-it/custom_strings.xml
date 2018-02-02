@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2017 The halogenOS Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="background_processes_settings_title">Processi in background</string>
+
+    <string name="alert_on_charged_level_title">Avviso carica batteria ottimale</string>
+    <string name="alert_on_charged_level_summary">Notifica e suona/vibra quando il livello di ricarica è ottimale e lo schermo è spento da almeno 1 min.\nLa notifica può essere disattivata separatamente con un tap lungo su di essa.</string>
+    <string name="alert_on_charged_level_dis">Disattivato</string>
+
+    <string name="night_brightness_category">Luminosità</string>
+    <string name="night_brightness_value_title">Abbassa luminosità per la modalità notte</string>
+    <string name="night_bright_disabled">Disattivato</string>
+    <string name="night_bright_minimum">Luminosità minima</string>
+    <string name="night_bright_low">Luminosità bassa</string>
+    <string name="night_bright_medium">Luminosità media</string>
+
+    <string name="ambient_doze_custom_brightness_title">Luminosità fissa Ambient</string>
+    <string name="ambient_doze_auto_brightness_title">Luminosità automatica Ambient</string>
+    <string name="ambient_doze_auto_brightness_summary">Usa la luminosità adattiva precedente allo spegnimento dello schermo per Ambient Display e Lift To Wake</string>
+
+    <string name="light_customization">Led di notifica</string>
+    <string name="custom_light_title">Colore</string>
+    <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
+    <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
+    <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
+    <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
+
+</resources>
