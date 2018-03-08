@@ -120,6 +120,11 @@
         android:key="lift_to_wake"
         android:title="@string/lift_to_wake_title" />
 
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
+
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
@@ -153,16 +158,23 @@
         android:key="theme_category"
         android:title="@string/theme_category_title">
 
-    <ListPreference
-        android:key="systemui_theme_style"
-        android:title="@string/systemui_theme_style_title"
-        android:entries="@array/systemui_theme_style_entries"
-        android:entryValues="@array/systemui_theme_style_values"
-        android:persistent="false" />
+        <ListPreference
+            android:key="systemui_theme_style"
+            android:title="@string/systemui_theme_style_title"
+            android:entries="@array/systemui_theme_style_entries"
+            android:entryValues="@array/systemui_theme_style_values"
+            android:persistent="false" />
 
         <Preference
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
+
+        <ListPreference
+            android:key="qs_tile_style"
+            android:title="@string/qs_tile_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_selector_entries"
+            android:entryValues="@array/qs_selector_values" />
 
     </PreferenceCategory >
 
@@ -186,13 +198,6 @@
         <com.android.settings.display.DensityPreference
             android:key="density"
             android:title="@string/developer_smallest_width" />
-
-    <ListPreference
-        android:key="qs_tile_style"
-        android:title="@string/qs_tile_style_title"
-        android:persistent="false"
-        android:entries="@array/qs_selector_entries"
-        android:entryValues="@array/qs_selector_values" />
 
     </PreferenceCategory>
 
