@@ -57,6 +57,7 @@ import com.android.settings.connecteddevice.AdvancedConnectedDeviceDashboardFrag
 import com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment;
 import com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment;
 import com.android.settings.connecteddevice.usb.UsbDetailsFragment;
+import com.android.settings.custom.ScreenStabilization;
 import com.android.settings.datausage.DataUsageList;
 import com.android.settings.datausage.DataUsageSummary;
 import com.android.settings.datausage.DataUsageSummaryLegacy;
@@ -265,7 +266,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             LiquidLoungeSettings.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            ScreenStabilization.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -306,5 +308,8 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             // LiquidRemix settings
             Settings.LiquidLoungeSettingsActivity.class.getName(),
+            // Screen Stabilization
+            Settings.ScreenStabilizationActivity.class.getName(),
+
     };
 }

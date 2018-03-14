@@ -82,6 +82,12 @@
         android:title="@string/developer_smallest_width" />
 
     <Preference
+	android:key="screen_stabilization"
+	android:title="@string/screen_stabilization_title"
+	android:summary="@string/screen_stabilization_summary"
+	android:fragment="com.android.settings.custom.ScreenStabilization" />
+
+    <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
