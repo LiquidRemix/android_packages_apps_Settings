@@ -35,6 +35,13 @@
         settings:widgetLayout="@null"
         settings:keywords="@string/keywords_display_night_display" />
 
+<com.android.settings.display.FontDialogPreference
+            android:key="custom_font"
+            android:title="@string/font_picker_title"
+            android:persistent="false" />
+
+    <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
+
     <SwitchPreference
         android:key="auto_brightness"
         android:title="@string/auto_brightness_title"
