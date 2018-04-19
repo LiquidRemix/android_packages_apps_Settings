@@ -299,4 +299,8 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">It\u2019s on the back of your phone. Use any finger.</string>
 
+	<!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
+
 </resources>
