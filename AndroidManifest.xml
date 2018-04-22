@@ -103,7 +103,6 @@
             android:directBootAware="true">
 
         <!-- Settings -->
-
         <activity android:name="Settings"
                 android:taskAffinity="com.android.settings"
                 android:label="@string/settings_label_launcher"
@@ -114,6 +113,17 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
+        </activity>
+
+        <!-- Smart Pixels -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_title">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                 android:value="com.liquid.liquidlounge.fragments.SmartPixels" />
         </activity>
 
         <!-- Alias for launcher activity only, as this belongs to each profile. -->
