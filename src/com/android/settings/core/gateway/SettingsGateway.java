@@ -141,6 +141,7 @@ import com.liquid.liquidlounge.fragments.FlingSettings;
 import com.liquid.liquidlounge.fragments.NavbarSettings;
 import com.liquid.liquidlounge.fragments.PulseSettings;
 import com.liquid.liquidlounge.fragments.SmartbarSettings;
+import com.liquid.liquidlounge.fragments.SmartPixels;
 import com.android.settings.aoscp.display.ColorManagerFragment;
 
 public class SettingsGateway {
@@ -265,7 +266,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-		    LiquidLoungeSettings.class.getName(),
+            LiquidLoungeSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
@@ -273,7 +274,8 @@ public class SettingsGateway {
             PulseSettings.class.getName(),
             ButtonsSettings.class.getName(),
             ColorManagerFragment.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -313,11 +315,12 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
 		    // LiquidRemix settings
-		    Settings.LiquidLoungeSettingsActivity.class.getName(),
+	        Settings.LiquidLoungeSettingsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName()
     };
 }
