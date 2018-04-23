@@ -80,9 +80,9 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
         mFontPreference = (FontDialogPreference) screen.findPreference(KEY_FONT_PICKER_FRAGMENT_PREF);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
             mFontPreference.setEnabled(true);
-        } else {
+        }/* else {
             mFontPreference.setEnabled(false);
-        }
+        }*/
     }
 
     @Override
