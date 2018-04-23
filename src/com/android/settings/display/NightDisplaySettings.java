@@ -111,7 +111,7 @@ public class NightDisplaySettings extends SettingsPreferenceFragment
         mTemperaturePreference.setOnPreferenceChangeListener(this);
 
         int nightBrightValue = Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.NIGHT_BRIGHTNESS_VALUE, 2);
+                Settings.Secure.NIGHT_BRIGHTNESS_VALUE, 3);
         mNightBrightValue.setValue(Integer.toString(nightBrightValue));
         mNightBrightValue.setSummary(mNightBrightValue.getEntry());
         mNightBrightValue.setOnPreferenceChangeListener(this);
