@@ -30,6 +30,10 @@
 	<string name="liquid_about_dev2_title">Paul C (Dabug123)</string>
 	<string name="liquid_about_dev2_summary">CO-Lead/Kernel Dev</string>
 
+
+        <string name="liquid_about_dev4_title">Rajesh Pal</string>
+        <string name="liquid_about_dev4_summary">Moto G5 Plus (Potter) Maintainer</string>
+
 	<!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
     <string name="liquidlounge_activity_summary">Personalize custom features</string>
