@@ -303,4 +303,51 @@
     <string name="menu_search">Search apps</string>
     <string name="menu_search_hint">Search apps\u2026</string>
 
+    <!-- Volume rocker -->
+    <string name="volume_rocker_title">Volume rocker</string>
+
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Volume keys answer</string>
+    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
+    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
+    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+
+    <!-- Volume button orientation -->
+    <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
+    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_disabled">Disabled</string>
+    <string name="headset_connect_player_wired">Wired headset plugged in</string>
+    <string name="headset_connect_player_bt_no_carkit">BT headset (no carkit) plugged in</string>
+    <string name="headset_connect_player_bt">BT headset plugged in</string>
+    <string name="headset_connect_player_both_no_carkit">Any headset (no carkit) plugged in</string>
+    <string name="headset_connect_player_both">Any headset plugged in</string>
+
+    <!-- Volume key controls media stream -->
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+
+    <!-- Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
 </resources>
