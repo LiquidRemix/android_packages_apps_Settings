@@ -142,7 +142,7 @@ import com.liquid.liquidlounge.fragments.FlingSettings;
 import com.liquid.liquidlounge.fragments.NavbarSettings;
 import com.liquid.liquidlounge.fragments.PulseSettings;
 import com.liquid.liquidlounge.fragments.SmartbarSettings;
-import com.liquid.liquidlounge.fragments.SmartPixels;
+import com.android.settings.liquid.SmartPixels;
 
 public class SettingsGateway {
 
