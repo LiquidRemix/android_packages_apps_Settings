@@ -101,6 +101,11 @@
         android:title="@string/ambient_display_screen_title"
         android:fragment="com.android.settings.display.AmbientDisplaySettings" />
 
+    <Preference
+        android:key="force_ambient_for_media_pref"
+        android:title="@string/ambient_ticker_title"
+        android:fragment="com.android.settings.liquid.AmbientTicker" />
+
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
