@@ -35,6 +35,11 @@
 	<string name="liquid_gplus_title">Liquid Remix Google Plus</string>
 	<string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
 
+    <!-- LIQUID changelog -->
+    <string name="changelog_liquid_title">Changelog</string>
+    <string name="changelog_liquid_summary">View recent changes in ROM</string>
+    <string name="changelog_liquid_error">Unable to load changelog</string>
+
 	<!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
     <string name="liquidlounge_activity_summary">Personalize custom features</string>

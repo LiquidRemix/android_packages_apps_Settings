@@ -29,6 +29,13 @@
                 android:title="@string/liquid_version"
                 android:summary="@string/device_info_default" />
 
+        <!-- LIQUID changelog -->
+        <PreferenceScreen
+                android:key="liquid_changelog"
+                android:title="@string/changelog_liquid_title"
+                android:summary="@string/changelog_liquid_summary"
+                android:fragment="com.android.settings.liquid.LiquidChangelog" />
+
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
                     android:title="@string/additional_system_update_settings_list_item_title">
