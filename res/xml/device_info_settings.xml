@@ -29,12 +29,15 @@
                 android:title="@string/liquid_version"
                 android:summary="@string/device_info_default" />
 
-        <!-- LIQUID changelog -->
-        <PreferenceScreen
-                android:key="liquid_changelog"
-                android:title="@string/changelog_liquid_title"
-                android:summary="@string/changelog_liquid_summary"
-                android:fragment="com.android.settings.liquid.LiquidChangelog" />
+        <!-- LIQUID OTA updates -->
+        <Preference
+        	    android:key="liquid_updates"
+                android:title="@string/updates_liquid_title"
+                android:summary="@string/updates_liquid_summary">
+                <intent android:action="android.intent.action.MAIN"
+                        android:targetPackage="com.liquid.ota"
+                        android:targetClass="com.liquid.ota.MainActivity" />
+        </Preference>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"

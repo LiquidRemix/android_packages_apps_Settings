@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- LIQUID version -->
-    <string name="liquid_version">Liquid Remix Build</string>
+    <string name="liquid_version">LiquidRemix Build</string>
 
     <!-- LIQUID device maintainer -->
     <string name="device_maintainer">Maintainer</string>
@@ -39,6 +39,10 @@
     <string name="changelog_liquid_title">Changelog</string>
     <string name="changelog_liquid_summary">View recent changes in ROM</string>
     <string name="changelog_liquid_error">Unable to load changelog</string>
+
+    <!-- LIQUID OTA updates -->
+    <string name="updates_liquid_title">LiquidRemix OTA</string>
+    <string name="updates_liquid_summary">Find new available OTA updates</string>
 
 	<!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
