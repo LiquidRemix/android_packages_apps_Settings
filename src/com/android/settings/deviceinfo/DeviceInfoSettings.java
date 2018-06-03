@@ -33,6 +33,7 @@ import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.DeviceMaintainerPreference;
 import com.android.settings.deviceinfo.LiquidVersionPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+import com.android.settings.deviceinfo.OTAPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -128,6 +129,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new PhoneNumberPreferenceController(context));
         controllers.add(new SimStatusPreferenceController(context, fragment));
+        controllers.add(new OTAPreferenceController(context));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));

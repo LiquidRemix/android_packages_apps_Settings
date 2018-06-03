@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- LIQUID version -->
-    <string name="liquid_version">Liquid Remix Build</string>
+    <string name="liquid_version">LiquidRemix Build</string>
     <string name="liquid_version_default">Unknown</string>
 
     <!-- Fingerprint location message -->
@@ -38,6 +38,10 @@
     <string name="liquid_telegram_summary">Tap here to join our telegram chat!</string>
     <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
     <string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
+
+    <!-- LIQUID OTA updates -->
+    <string name="updates_liquid_title">LiquidRemix OTA</string>
+    <string name="updates_liquid_summary">Find new available OTA updates</string>
 
     <!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>

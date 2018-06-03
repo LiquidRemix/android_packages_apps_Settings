@@ -27,6 +27,16 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
+    <!-- LIQUID OTA updates -->
+    <Preference
+        android:key="liquid_updates"
+        android:title="@string/updates_liquid_title"
+        android:summary="@string/updates_liquid_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.liquid.ota"
+                android:targetClass="com.liquid.ota.MainActivity" />
+    </Preference>
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
