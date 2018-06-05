@@ -17,9 +17,6 @@
     <!-- LIQUID version -->
     <string name="liquid_version">Versione Liquid Remix</string>
 
-
-
-
 	<!-- LIQUID about -->
 	<string name="liquid_about_title">Informazioni su Liquid Remix</string>
 	<string name="liquid_about_info">ROM</string>
@@ -29,13 +26,13 @@
 	<string name="liquid_about_dev_summary">Fondatore</string>
 	<string name="liquid_about_dev2_title">Paul C (Dabug123)</string>
 	<string name="liquid_about_dev2_summary">CO-Lead/Kernel Dev</string>
-    <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
+        <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
 	<string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
 
     <!-- LIQUID changelog -->
-    <string name="changelog_liquid_title">Changelog</string>
-    <string name="changelog_liquid_summary">View recent changes in ROM</string>
-    <string name="changelog_liquid_error">Unable to load changelog</string>
+    <string name="changelog_liquid_title">Modifiche</string>
+    <string name="changelog_liquid_summary">Visualizza le modifiche recenti della ROM</string>
+    <string name="changelog_liquid_error">Impossibile caricare il log delle modifiche</string>
 	
 	<!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
@@ -176,12 +173,6 @@
     <string name="volume_steps_bluetooth_sco_title">Livello volume: Chiamata Bluetooth</string>
     <string name="volume_steps_reset">Ripristina</string>
 
-
-
-
-
-
-
     <!-- Link volume notification -->
     <string name="link_volume_option_title">Collega volume suoneria e notifiche</string>
 
@@ -204,7 +195,6 @@
     <!-- Battery stats -->
     <string name="menu_stats_reset">Ripristina le statistiche</string>
     <string name="reset_stats_msg">Le statistiche della batteria stanno per essere ripristinanate</string>
-
     
     <!-- Root Management -->
     <string name="rootmanagement_title">Gestione root</string>
@@ -233,7 +223,7 @@
     <string name="expanded_hide_both">Nascondi entrambe</string>
     <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata per le app dello stato esteso, imposta \"Abilitato per tutti\" nella posizione spento</string>
 
-    <string name="expanded_desktop_state">Modalità Expanded</string>
+    <string name="expanded_desktop_state">Modalità estesa</string>
     <string name="expanded_enabled_for_all">Abilitato per tutti</string>
     <string name="expanded_user_configurable">Configurabile dall\'utente</string>
     <string name="expanded_desktop_style">Stile schermo esteso</string>
@@ -309,20 +299,20 @@
     <string name="volume_rocker_title">Bilanciare del volume</string>
 
     <!-- Volume key answer -->
-    <string name="volume_answer_call_title">Rispondi alla chiamata</string>
+    <string name="volume_answer_call_title">Rispondi alle chiamate</string>
     <string name="volume_answer_call_summary">Rispondi alle chiamate premendo i pulsanti del volume</string>
 
     <!-- Volume up exit do not disturb -->
     <string name="volbtn_up_zen_title">Aumenta il volume per non disturbare</string>
-    <string name="volbtn_up_zen_summary">Consente di alzare il volume per uscire dalla modalità non disturbare</string>
+    <string name="volbtn_up_zen_summary">Consente alzando il volume di uscire dalla modalità non disturbare</string>
 
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Abbassa il volume per non disturbare</string>
-    <string name="volbtn_down_zen_summary">Consente di abbassare il volume per entrare nella modalità non disturbare</string>
+    <string name="volbtn_down_zen_summary">Consente abbassando il volume di entrare nella modalità non disturbare</string>
 
     <!-- Volume button orientation -->
     <string name="swap_volume_buttons_title">Riorienta bilanciare del volume</string>
-    <string name="swap_volume_buttons_summary">Regola l\'orientamento del bilanciere in base alla rotazione corrente</string>
+    <string name="swap_volume_buttons_summary">Regola l\'orientamento del bilanciere in base alla rotazione dello schermo</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Controllo della riproduzione</string>
