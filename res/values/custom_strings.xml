@@ -362,7 +362,7 @@
 
     <!-- Ambient music ticker -->
     <string name="ambient_ticker_title">Ambient music ticker</string>
-    <string name="ambient_ticker_footer">This feature allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\n\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it. It can be triggered without having ambient display enabled by using the (forced) options.\n\nNormal view includes the lockscreen clock, date and ticker.\n\nMinimal view includes just the ticker at the center of the screen.</string>
+    <string name="ambient_ticker_footer">This feature shows the current music track info within an Ambient display screen.\n\nIt can be triggered without having ambient display enabled by using the (forced) option.\n\nNormal view includes the lockscreen clock, date and ticker.\n\nMinimal view includes just the ticker at the center of the screen.\n\nYou can double tap on track info to skip track.</string>
     <string name="force_ambient_for_media_title">Select layout</string>
     <string name="force_ambient_for_media_off">Disabled</string>
     <string name="force_ambient_for_media_on">Normal</string>
