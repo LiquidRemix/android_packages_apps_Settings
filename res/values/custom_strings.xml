@@ -23,17 +23,17 @@
     <!-- LIQUID device maintainer -->
     <string name="device_maintainer">Maintainer</string>
 
-	<!-- LIQUID about -->
-	<string name="liquid_about_title">About ROM</string>
-	<string name="liquid_about_info">ROM</string>
-	<string name="liquid_about_info_summary">Liquid Remix is a project reborn by the creator of Liquid Smooth. With the help of Dabug123 we have brought back this amazing project based on Lineage.</string>
-	<string name="liquid_about_devs">About Team</string>
-	<string name="liquid_about_dev_title">Ryan (liquid0624)</string>
-	<string name="liquid_about_dev_summary">Founder/Lead Dev</string>
-	<string name="liquid_telegram_title">Liquid Remix Telegram</string>
-	<string name="liquid_telegram_summary">Tap here to join our telegram chat!</string>
-	<string name="liquid_gplus_title">Liquid Remix Google Plus</string>
-	<string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
+    <!-- LIQUID about -->
+    <string name="liquid_about_title">About ROM</string>
+    <string name="liquid_about_info">ROM</string>
+    <string name="liquid_about_info_summary">Liquid Remix is a project reborn by the creator of Liquid Smooth. With the help of Dabug123 we have brought back this amazing project based on Lineage.</string>
+    <string name="liquid_about_devs">About Team</string>
+    <string name="liquid_about_dev_title">Ryan (liquid0624)</string>
+    <string name="liquid_about_dev_summary">Founder/Lead Dev</string>
+    <string name="liquid_telegram_title">Liquid Remix Telegram</string>
+    <string name="liquid_telegram_summary">Tap here to join our telegram chat!</string>
+    <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
+    <string name="liquid_gplus_summary">Tap here to join our gplus community!</string> 
 
     <!-- LIQUID changelog -->
     <string name="changelog_liquid_title">Changelog</string>
@@ -44,7 +44,7 @@
     <string name="updates_liquid_title">LiquidRemix OTA</string>
     <string name="updates_liquid_summary">Find new available OTA updates</string>
 
-	<!-- Liquid Lounge -->
+    <!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
     <string name="liquidlounge_activity_summary">Personalize custom features</string>
 
@@ -171,7 +171,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
 
-	<!-- Volume steps -->
+    <!-- Volume steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
     <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
@@ -310,7 +310,7 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">It\u2019s on the back of your phone. Use any finger.</string>
 
-	<!-- Search -->
+    <!-- Search -->
     <string name="menu_search">Search apps</string>
     <string name="menu_search_hint">Search apps\u2026</string>
 
@@ -385,5 +385,9 @@
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 
 </resources>
