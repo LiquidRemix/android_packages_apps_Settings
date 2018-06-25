@@ -21,16 +21,16 @@
     <string name="device_maintainer">Sorumlu</string>
 
    	<!-- LIQUID about -->
-   	<string name="liquid_about_title">Hakkımızda</string>
-   	<string name="liquid_about_info">ROM</string>
-   	<string name="liquid_about_info_summary">Liquid Remix, Liquid Smooth\'in yaratıcısı tarafından yeniden doğmuş bir projedir. Dabug123\'ın yardımıyla, Lineage\'a dayanan bu harika projeyi geri getirdik.</string>
-   	<string name="liquid_about_devs">Takım hakkında</string>
-   	<string name="liquid_about_dev_title">Ryan (liquid0624)</string>
-   	<string name="liquid_about_dev_summary">Kurucu/Geliştirici</string>
-   	<string name="liquid_telegram_title">Liquid Remix Telegram</string>
-   	<string name="liquid_telegram_summary">Telegram sohbetimize katılmak için buraya dokunun!</string>
-   	<string name="liquid_gplus_title">Liquid Remix Google Plus</string>
-   	<string name="liquid_gplus_summary">Gplus topluluğumuza katılmak için buraya dokunun!</string> 
+    <string name="liquid_about_title">Hakkımızda</string>
+    <string name="liquid_about_info">ROM</string>
+    <string name="liquid_about_info_summary">Liquid Remix, Liquid Smooth\'in yaratıcısı tarafından yeniden doğmuş bir projedir. Dabug123\'ın yardımıyla, Lineage\'a dayanan bu harika projeyi geri getirdik.</string>
+    <string name="liquid_about_devs">Takım hakkında</string>
+    <string name="liquid_about_dev_title">Ryan (liquid0624)</string>
+    <string name="liquid_about_dev_summary">Kurucu/Geliştirici</string>
+    <string name="liquid_telegram_title">Liquid Remix Telegram</string>
+    <string name="liquid_telegram_summary">Telegram sohbetimize katılmak için buraya dokunun!</string>
+    <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
+    <string name="liquid_gplus_summary">Gplus topluluğumuza katılmak için buraya dokunun!</string> 
 
     <!-- LIQUID changelog -->
     <string name="changelog_liquid_title">Değişiklikler</string>
@@ -41,8 +41,8 @@
     <string name="updates_liquid_title">Güncellemeler</string>
     <string name="updates_liquid_summary">Liquid Remix sistem güncellemeleri</string>
 
-   	<!-- Liquid Lounge -->
-    <string name="liquidlounge_title">Liquid Lounge</string>
+    <!-- Liquid Lounge -->
+    <string name="liquidlounge_title">Eklentiler</string>
     <string name="liquidlounge_activity_summary">Çeşitli özelleştirmeler</string>
 
     <!-- Dev settings -->
@@ -168,7 +168,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
 
-	   <!-- Volume steps -->
+    <!-- Volume steps -->
     <string name="volume_steps_title">Ses seviyeleri</string>
     <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
     <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
@@ -249,6 +249,7 @@
     <string name="system_theme_style_light">Aydınlık arayüz</string>
     <string name="system_theme_style_dark">Karanlık arayüz</string>
     <string name="system_theme_style_black">Siyah arayüz</string>
+    <string name="system_theme_style_extended">Extended arayüz</string>
     <string name="theme_applied_toast">Tema uygulandı!</string>
     <string name="applying_theme_toast">Arayüz stili uygulandı!</string>
 
@@ -271,8 +272,8 @@
     <string name="sub_deactivate_failed">SIM devre dışı bırakma başarısız</string>
 
     <!-- Advanced settings (former: Developer options) -->
-    <string name="dev_advanced_settings_summary">Deneyimli kullanıcı için</string>
-    <string name="dev_advanced_already_enabled">Gelişmiş ayarlar zaten etkin!</string>
+    <string name="dev_advanced_settings_summary">Deneyimli kullanıcılar için</string>
+    <string name="dev_advanced_already_enabled">Geliştirici ayarları zaten etkin!</string>
 
     <!-- USB mode dialog -->
     <string name="show_usb_mode_dialog_title">USB modu iletişimini göster</string>
@@ -303,7 +304,7 @@
     <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
 
     <!-- Volume rocker -->
-    <string name="volume_rocker_title">Ses tuşu</string>
+    <string name="volume_rocker_title">Ses tuşları</string>
 
     <!-- Volume key answer -->
     <string name="volume_answer_call_title">Ses tuşlarıyla cevapla</string>
@@ -355,16 +356,15 @@
     <string name="force_ambient_for_media_title">Düzen seç</string>
     <string name="force_ambient_for_media_off">Devre dışı</string>
     <string name="force_ambient_for_media_on">Normal</string>
-    <string name="force_ambient_for_media_on_forced">Standart (zorla)</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimum (zorla)</string>
 
     <!-- Smart pixels -->
-    <string name="smart_pixels_title">Akıllı piksel</string>
-    <string name="smart_pixels_summary">Fazladan pikseli kapatarak pil tasarrufu sağlayın</string>
-    <string name="smart_pixels_enable_title">Akıllı pikseli etkinleştir</string>
-    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikseli kapatın</string>
+    <string name="smart_pixels_title">Akıllı pikseller</string>
+    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
     <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
-    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikseli etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikselleri etkinleştir</string>
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
     <string name="smart_pixels_shift">Pikseli sürekli değiştirerek yanmayı önle</string>
 
