@@ -20,7 +20,7 @@
     <!-- LIQUID device maintainer -->
     <string name="device_maintainer">Sorumlu</string>
 
-   	<!-- LIQUID about -->
+    <!-- LIQUID about -->
     <string name="liquid_about_title">Hakkımızda</string>
     <string name="liquid_about_info">ROM</string>
     <string name="liquid_about_info_summary">Liquid Remix, Liquid Smooth\'in yaratıcısı tarafından yeniden doğmuş bir projedir. Dabug123\'ın yardımıyla, Lineage\'a dayanan bu harika projeyi geri getirdik.</string>
@@ -39,7 +39,7 @@
 
     <!-- LIQUID OTA updates -->
     <string name="updates_liquid_title">Güncellemeler</string>
-    <string name="updates_liquid_summary">Liquid Remix sistem güncellemeleri</string>
+    <string name="updates_liquid_summary">LiquidRemix sistem güncellemeleri</string>
 
     <!-- Liquid Lounge -->
     <string name="liquidlounge_title">Eklentiler</string>
@@ -190,7 +190,7 @@
 
     <!-- Display rotation -->
     <string name="display_rotation_title">Ekran döndürme</string>
-    <string name="display_rotation_disabled">Devre dışo</string>
+    <string name="display_rotation_disabled">Devre dışı</string>
     <string name="display_rotation_unit">derece</string>
     <string name="display_rotation_category_title">Döndürme modları</string>
     <string name="display_rotation_0_title">0 derece</string>
@@ -249,6 +249,7 @@
     <string name="system_theme_style_light">Aydınlık arayüz</string>
     <string name="system_theme_style_dark">Karanlık arayüz</string>
     <string name="system_theme_style_black">Siyah arayüz</string>
+    <string name="system_theme_style_chocolate">Çikolata arayüz</string>
     <string name="system_theme_style_extended">Extended arayüz</string>
     <string name="theme_applied_toast">Tema uygulandı!</string>
     <string name="applying_theme_toast">Arayüz stili uygulandı!</string>
@@ -276,8 +277,8 @@
     <string name="dev_advanced_already_enabled">Geliştirici ayarları zaten etkin!</string>
 
     <!-- USB mode dialog -->
-    <string name="show_usb_mode_dialog_title">USB modu iletişimini göster</string>
-    <string name="show_usb_mode_dialog_summary">Bir bilgisayara takıldığında hangi USB modunun kullanılacağını seçmek için iletişim kutusu göster</string>
+    <string name="show_usb_mode_dialog_title">USB modu iletişimi</string>
+    <string name="show_usb_mode_dialog_summary">Cihaz bilgisayara bağlandığında hangi USB modunun kullanılacağını seçmek için iletişim kutusunu göster</string>
 
     <!-- [CHAR LIMIT=80]-->
     <string name="fp_swipe_to_dismiss_notifications_title">Bildirimleri kapatmak için parmak izinde parmağınızı sola veya sağa kaydır</string>
@@ -299,7 +300,7 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_custom">Bu\u2019s telefonunuzun arkasındaki. Herhangi bir parmak izi kullanın.</string>
 
-	   <!-- Search -->
+    <!-- Search -->
     <string name="menu_search">Uygulama ara</string>
     <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
 
