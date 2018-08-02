@@ -386,10 +386,9 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 
-    <!-- Screen Stabilization -->
-    <string name="screen_stabilization_title">Screen Stabilization</string>
-    <string name="screen_stabilization_summary">Screen Stabilization Menus</string>
-    <string name="screen_stabilization_enable">Enable Screen Stabilization</string>
+    <!-- Screen stabilization -->
+    <string name="screen_stabilization_title">Screen stabilization</string>
+    <string name="screen_stabilization_enable">Enable screen stabilization</string>
     <string name="screen_stabilization_enable_summary">Leave the below values as is if you don\'t understand what they mean.</string>
     <string name="stabilization_velocity_friction_title">Velocity friction</string>
     <string name="stabilization_position_friction_title">Position friction</string>

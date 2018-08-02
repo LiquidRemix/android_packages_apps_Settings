@@ -77,10 +77,9 @@
         android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
 
     <Preference
-	android:key="screen_stabilization"
-	android:title="@string/screen_stabilization_title"
-	android:summary="@string/screen_stabilization_summary"
-	android:fragment="com.android.settings.custom.ScreenStabilization" />
+	    android:key="screen_stabilization"
+	    android:title="@string/screen_stabilization_title"
+	    android:fragment="com.android.settings.custom.ScreenStabilization" />
 
     <Preference
         android:key="font_size"
