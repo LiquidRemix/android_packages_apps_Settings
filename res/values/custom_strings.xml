@@ -224,4 +224,12 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
+
+    <!-- Ambient Play -->
+    <string name="ambient_play_cat">Now playing</string>
+    <string name="ambient_recognition_title">Enable Now Playing</string>
+    <string name="ambient_recognition_summary">Be notified of music being played around you.</string>
+    <string name="ambient_recognition_lockscreen_title">Show Now Playing</string>
+    <string name="ambient_recognition_lockscreen_summary">On the lockscreen</string>
+
 </resources>
