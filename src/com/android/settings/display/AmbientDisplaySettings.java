@@ -24,6 +24,7 @@ import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.pixeldust.doze.AmbientPlayPreferenceController;
 import com.android.settings.pixeldust.doze.AmbientPlayKeyguardPreferenceController;
+import com.android.settings.pixeldust.doze.AmbientPlayIntervalPreferenceController;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
@@ -60,6 +61,7 @@ public class AmbientDisplaySettings extends DashboardFragment {
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         addPreferenceController(new AmbientPlayPreferenceController(context));
         addPreferenceController(new AmbientPlayKeyguardPreferenceController(context));
+        addPreferenceController(new AmbientPlayIntervalPreferenceController(context));
     }
 
     @Override
