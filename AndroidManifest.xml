@@ -3202,7 +3202,8 @@
 
 	<activity android:name=".Settings$LiquidLoungeSettingsActivity"
                   android:label="@string/liquidlounge_title"
-                  android:icon="@drawable/ic_settings_liquid">
+                  android:icon="@drawable/ic_homepage_liquid"
+                  android:taskAffinity="com.android.settings">
             <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
