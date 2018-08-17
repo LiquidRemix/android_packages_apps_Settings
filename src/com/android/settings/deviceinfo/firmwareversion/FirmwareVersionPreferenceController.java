@@ -49,7 +49,7 @@ public class FirmwareVersionPreferenceController extends AbstractPreferenceContr
         super.displayPreference(screen);
         final Preference pref = screen.findPreference(getPreferenceKey());
         if (pref != null) {
-            pref.setSummary(Build.VERSION.RELEASE);
+            pref.setSummary(Build.VERSION.RELEASE + " " + Build.ID);
         }
     }
 
