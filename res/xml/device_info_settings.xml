@@ -21,6 +21,12 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- LIQUID version -->
+    <Preference
+        android:key="liquid_version"
+        android:title="@string/liquid_version"
+        android:summary="@string/device_info_default" />
+
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
