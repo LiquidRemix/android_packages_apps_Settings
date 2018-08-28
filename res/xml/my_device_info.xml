@@ -41,14 +41,6 @@
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"/>
 
-    <!-- Phone number -->
-    <Preference
-        android:key="phone_number"
-        android:order="3"
-        android:title="@string/status_number"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
-
     <Preference
         android:key="emergency_info"
         android:order="4"
@@ -71,14 +63,6 @@
         <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
     </Preference>
 
-    <!-- Safety & regulatory manual -->
-    <Preference
-        android:key="safety_info"
-        android:order="7"
-        android:title="@string/safety_and_regulatory_info">
-        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO"/>
-    </Preference>
-
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
@@ -95,14 +79,6 @@
         android:title="@string/hardware_info"
         settings:keywords="@string/keywords_model_and_hardware"
         android:summary="@string/summary_placeholder"/>
-
-    <!-- IMEI -->
-    <Preference
-        android:key="imei_info"
-        android:order="22"
-        android:title="@string/status_imei"
-        settings:keywords="@string/keywords_imei_info"
-        android:summary="@string/imei_information_summary"/>
 
     <!-- Android version -->
     <Preference
@@ -136,27 +112,6 @@
         android:title="@string/status_bt_address"
         android:summary="@string/summary_placeholder"
         android:selectable="false"/>
-
-    <!-- Manual -->
-    <Preference
-        android:key="manual"
-        android:order="40"
-        android:title="@string/manual">
-        <intent android:action="android.settings.SHOW_MANUAL"/>
-    </Preference>
-
-    <!-- Feedback on the device -->
-    <Preference
-        android:key="device_feedback"
-        android:order="41"
-        android:title="@string/device_feedback"/>
-
-    <!-- Device FCC equipment id -->
-    <Preference
-        android:key="fcc_equipment_id"
-        android:order="42"
-        android:title="@string/fcc_equipment_id"
-        android:summary="@string/summary_placeholder"/>
 
     <!-- Build number -->
     <Preference
