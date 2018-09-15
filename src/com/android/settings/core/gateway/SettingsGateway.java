@@ -137,6 +137,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.liquid.liquidlounge.fragments.HeadsUpSettings;
 import com.liquid.liquidlounge.LiquidLoungeSettings;
 
 public class SettingsGateway {
@@ -264,6 +265,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             LiquidLoungeSettings.class.getName(),
+            HeadsUpSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
