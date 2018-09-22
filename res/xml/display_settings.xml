@@ -81,28 +81,11 @@
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
         settings:keywords="@string/keywords_color_mode" />
 
-    <com.android.settings.display.DensityPreference
-        android:key="density"
-        android:title="@string/developer_smallest_width" />
-
     <Preference
 	android:key="screen_stabilization"
 	android:title="@string/screen_stabilization_title"
 	android:summary="@string/screen_stabilization_summary"
 	android:fragment="com.android.settings.custom.ScreenStabilization" />
-
-    <Preference
-        android:key="font_size"
-        android:title="@string/title_font_size"
-        android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
-        settings:controller="com.android.settings.display.FontSizePreferenceController"
-        settings:keywords="@string/keywords_display_font_size" />
-
-    <com.android.settings.display.ScreenZoomPreference
-        android:key="display_settings_screen_zoom"
-        android:title="@string/screen_zoom_title"
-        android:fragment="com.android.settings.display.ScreenZoomSettings"
-        settings:keywords="@string/screen_zoom_keywords" />
 
     <SwitchPreference
         android:key="show_operator_name"
@@ -163,6 +146,29 @@
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
     </PreferenceCategory >
+
+    <PreferenceCategory
+        android:key="density_category"
+        android:title="@string/density_category">
+
+        <Preference
+            android:key="font_size"
+            android:title="@string/title_font_size"
+            android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
+            settings:controller="com.android.settings.display.FontSizePreferenceController"
+            settings:keywords="@string/keywords_display_font_size" />
+
+        <com.android.settings.display.ScreenZoomPreference
+            android:key="display_settings_screen_zoom"
+            android:title="@string/screen_zoom_title"
+            android:fragment="com.android.settings.display.ScreenZoomSettings"
+            settings:keywords="@string/screen_zoom_keywords" />
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
+
+    </PreferenceCategory>
 
     <Preference
         android:key="vr_display_pref"
