@@ -30,7 +30,7 @@
     <string name="liquid_telegram_title">Liquid Remix Telegram</string>
     <string name="liquid_telegram_summary">Telegram sohbetimize katılmak için buraya dokunun!</string>
     <string name="liquid_gplus_title">Liquid Remix Google Plus</string>
-    <string name="liquid_gplus_summary">Gplus topluluğumuza katılmak için buraya dokunun!</string> 
+    <string name="liquid_gplus_summary">G+ topluluğumuza katılmak için buraya dokunun!</string> 
 
     <!-- LIQUID changelog -->
     <string name="changelog_liquid_title">Değişiklikler</string>
@@ -251,8 +251,8 @@
     <string name="system_theme_style_black">Siyah arayüz</string>
     <string name="system_theme_style_chocolate">Çikolata arayüz</string>
     <string name="system_theme_style_extended">Extended arayüz</string>
-    <string name="theme_applied_toast">Tema uygulandı!</string>
-    <string name="applying_theme_toast">Arayüz stili uygulandı!</string>
+    <string name="theme_applied_toast">Arayüz stili uygulandı!</string>
+    <string name="applying_theme_toast">Arayüz stili uygulanıyor\u2026</string>
 
     <!-- SIM enable toggle implementation -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -273,7 +273,7 @@
     <string name="sub_deactivate_failed">SIM devre dışı bırakma başarısız</string>
 
     <!-- Advanced settings (former: Developer options) -->
-    <string name="dev_advanced_settings_summary">Deneyimli kullanıcılar için</string>
+    <string name="dev_advanced_settings_summary">Geliştirici seçenekleri</string>
     <string name="dev_advanced_already_enabled">Geliştirici ayarları zaten etkin!</string>
 
     <!-- USB mode dialog -->
@@ -312,12 +312,12 @@
     <string name="volume_answer_call_summary">Ses tuşlarına basıldığında gelen aramayı cevapla</string>
 
     <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Rahatsız etmeyinde sesi aç</string>
-    <string name="volbtn_up_zen_summary">Rahatsız etmeyin den çıkana kadar ses yükseltmesine izin verme</string>
+    <string name="volbtn_up_zen_title">Rahatsız etmeyinde sesi yükselt</string>
+    <string name="volbtn_up_zen_summary">Rahatsız etmeyin den çıkana kadar ses yükseltmesine izin ver</string>
 
     <!-- Volume down enter do not disturb -->
-    <string name="volbtn_down_zen_title">Rahatsız etmeyinde sesi kıs</string>
-    <string name="volbtn_down_zen_summary">Rahatsız etmeyin den çıkana kadar ses kısılmasına izin verme</string>
+    <string name="volbtn_down_zen_title">Rahatsız etmeyinde sesi azalt</string>
+    <string name="volbtn_down_zen_summary">Rahatsız etmeyin den çıkana kadar ses azaltılmasına izin ver</string>
 
     <!-- Volume button orientation -->
     <string name="swap_volume_buttons_title">Yeniden ata</string>
@@ -342,7 +342,7 @@
 
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">İmleç</string>
-    <string name="volume_key_cursor_control_title">Ses tuşu imleç kontrolü</string>
+    <string name="volume_key_cursor_control_title">Ses tuşları ile imleç kontrolü</string>
     <string name="volume_key_cursor_control_off">Devre dışı</string>
     <string name="volume_key_cursor_control_on">Ses arttırma/azaltma imleci sola/sağa kaydırır</string>
     <string name="volume_key_cursor_control_on_reverse">Ses arttırma/azaltma imleci sağa/sola kaydırır</string>
@@ -374,5 +374,19 @@
     <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+
+    <!-- Screen stabilization -->
+    <string name="screen_stabilization_title">Ekran stabilizasyonu</string>
+    <string name="screen_stabilization_enable">Ekran stabilizasyonunu etkinleştir</string>
+    <string name="screen_stabilization_enable_summary">Aşağıdaki değerlerin ne anlama geldiğini anlamadıysanız bırakın.</string>
+    <string name="stabilization_velocity_friction_title">Hız süresi</string>
+    <string name="stabilization_position_friction_title">Pozisyon süresi</string>
+    <string name="stabilization_velocity_amplitude_title">Hız genliği</string>
+
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_headset_settings_title">Kulaklık ve zil sesi ayarları</string>
+    <string name="ringtone_focus_mode_title">Zil seslerini nereden oynat</string>
+    <string name="ringtone_focus_mode_dynamic">Kulaklık bağlıysa ve müzik oynatılıyorsa</string>
+    <string name="ringtone_focus_mode_stock">"Hoparlörden (aosp varsayılanı)"</string>
 
 </resources>
