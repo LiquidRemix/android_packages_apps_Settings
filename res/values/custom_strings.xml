@@ -226,10 +226,10 @@
     <string name="adb_notify">Debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 
-    <!-- Screen Stabilization -->
-    <string name="screen_stabilization_title">Screen Stabilization</string>
-    <string name="screen_stabilization_summary">Configure Screen-Stabilizer Values</string>
-    <string name="screen_stabilization_enable">Enable Screen Stabilization</string>
+    <!-- Screen stabilization -->
+    <string name="screen_stabilization_title">Screen stabilization</string>
+    <string name="screen_stabilization_summary">Configure screen-stabilizer values</string>
+    <string name="screen_stabilization_enable">Enable screen stabilization</string>
     <string name="screen_stabilization_enable_summary">Leave the below values as is if you don\'t understand what they mean.</string>
     <string name="stabilization_velocity_friction_title">Velocity friction</string>
     <string name="stabilization_position_friction_title">Position friction</string>
