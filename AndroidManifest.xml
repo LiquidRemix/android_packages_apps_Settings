@@ -3429,14 +3429,14 @@
                 android:value="true" />
         </activity>
 
-        <receiver android:name="com.havoc.settings.fragments.ui.DozeReceiver">
+        <receiver android:name="com.liquid.liquidlounge.fragments.ui.DozeReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
 
-	    <service android:name="com.havoc.settings.fragments.ui.DozeService"
+	    <service android:name="com.liquid.liquidlounge.fragments.ui.DozeService"
                 android:permission="LiquidDozeService">
         </service>
 
