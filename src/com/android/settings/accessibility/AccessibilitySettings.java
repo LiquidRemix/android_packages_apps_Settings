@@ -845,8 +845,6 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
 
-                public static final String KEY_DISPLAY_SIZE = "accessibility_settings_screen_zoom";
-
                 @Override
                 public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
                         boolean enabled) {
@@ -860,8 +858,6 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-                    // Duplicates in Display
-                    keys.add(KEY_DISPLAY_SIZE);
 
                     // Duplicates in Language & Input
                     keys.add(TTS_SETTINGS_PREFERENCE);

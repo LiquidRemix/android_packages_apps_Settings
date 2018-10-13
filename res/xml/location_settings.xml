@@ -33,7 +33,7 @@
 
         <PreferenceCategory
             android:key="location_advanced_settings"
-            settings:initialExpandedChildrenCount="1">
+            settings:initialExpandedChildrenCount="8">
 
             <!-- This preference category gets removed if new_recent_location_ui is disabled -->
             <Preference
@@ -61,6 +61,12 @@
             <PreferenceCategory
                 android:key="location_services"
                 android:title="@string/location_category_location_services"/>
+
+            <SwitchPreference
+                android:key="assisted_gps"
+                android:title="@string/assisted_gps"
+                android:summaryOn="@string/assisted_gps_enabled"
+                android:summaryOff="@string/assisted_gps_disabled"/>
         </PreferenceCategory>
 
         <PreferenceCategory

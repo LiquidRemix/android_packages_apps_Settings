@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="installed_app_detail_settings_screen"
-    settings:initialExpandedChildrenCount="6">
+    settings:initialExpandedChildrenCount="8">
 
     <com.android.settings.applications.LayoutPreference
         android:key="header_view"
@@ -178,6 +178,7 @@
         android:key="app_package_name"
         android:selectable="false"
         android:order="9999"
-        settings:controller="com.android.settings.applications.appinfo.AppPackageNamePreferenceController" />
+        settings:controller="com.android.settings.applications.appinfo.AppPackageNamePreferenceController"
+        settings:allowDividerAbove="true" />
 
 </PreferenceScreen>

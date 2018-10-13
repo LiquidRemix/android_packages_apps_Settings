@@ -56,7 +56,7 @@ import java.util.List;
 
 public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFragment
         implements SwitchBar.OnSwitchChangeListener, OemUnlockDialogHost, AdbDialogHost,
-        AdbClearKeysDialogHost, LogPersistDialogHost,
+        WirelessAdbDialogHost, AdbClearKeysDialogHost, LogPersistDialogHost,
         BluetoothA2dpHwOffloadRebootDialog.OnA2dpHwDialogConfirmedListener {
 
     private static final String TAG = "DevSettingsDashboard";
@@ -250,6 +250,20 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
     }
 
     @Override
+    public void onWirelessAdbDialogConfirmed() {
+        final WirelessAdbPreferenceController controller = getDevelopmentOptionsController(
+                WirelessAdbPreferenceController.class);
+        controller.onWirelessAdbDialogConfirmed();
+    }
+
+    @Override
+    public void onWirelessAdbDialogDismissed() {
+        final WirelessAdbPreferenceController controller = getDevelopmentOptionsController(
+                WirelessAdbPreferenceController.class);
+        controller.onWirelessAdbDialogDismissed();
+    }
+
+    @Override
     public void onAdbClearKeysDialogConfirmed() {
         final ClearAdbKeysPreferenceController controller = getDevelopmentOptionsController(
                 ClearAdbKeysPreferenceController.class);
@@ -390,8 +404,8 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new PictureColorModePreferenceController(context, lifecycle));
         controllers.add(new WebViewAppPreferenceController(context));
         controllers.add(new CoolColorTemperaturePreferenceController(context));
-        //controllers.add(new DisableAutomaticUpdatesPreferenceController(context));
         controllers.add(new AdbPreferenceController(context, fragment));
+        controllers.add(new WirelessAdbPreferenceController(context, fragment));
         controllers.add(new ClearAdbKeysPreferenceController(context, fragment));
         controllers.add(new LocalTerminalPreferenceController(context));
         //controllers.add(new BugReportInPowerPreferenceController(context));
@@ -456,7 +470,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new ShortcutManagerThrottlingPreferenceController(context));
         controllers.add(new EnableGnssRawMeasFullTrackingPreferenceController(context));
         controllers.add(new DefaultLaunchPreferenceController(context, "running_apps"));
-        controllers.add(new DefaultLaunchPreferenceController(context, "demo_mode"));
         controllers.add(new DefaultLaunchPreferenceController(context, "quick_settings_tiles"));
         controllers.add(new DefaultLaunchPreferenceController(context, "feature_flags_dashboard"));
         controllers.add(

@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2015 The Nitrogen Project
+<!--
+     Copyright (C) 2018 The Liquid Remix Project
 
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
 
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+          http://www.apache.org/licenses/LICENSE-2.0
 
-  You should have received a copy of the GNU General Public License
-  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- -->
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
 <resources>
+
     <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
          config_fingerprintSensorLocation -->
     <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">
@@ -196,6 +197,21 @@
         <item>@string/app_ops_boot_completed</item>
     </string-array>
 
+    <!-- Night mode tile brightness value  -->
+    <string-array name="night_brightness_value_entries" translatable="false">
+        <item>@string/night_bright_disabled</item>
+        <item>@string/night_bright_minimum</item>
+        <item>@string/night_bright_low</item>
+        <item>@string/night_bright_medium</item>
+    </string-array>
+
+    <string-array name="night_brightness_value_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- SystemUI theme -->
     <string-array name="systemui_theme_style_entries" translatable="false">
         <item>@string/systemui_theme_style_auto</item>
@@ -293,6 +309,33 @@
         <item>80000</item>
         <item>100000</item>
         <item>120000</item>
+    </string-array>
+
+    <!-- Less Notifications -->
+    <string-array name="less_notification_sounds_entries">
+        <item>@string/less_notification_sounds_default</item>
+        <item>@string/less_notification_sounds_3s</item>
+        <item>@string/less_notification_sounds_5s</item>
+        <item>@string/less_notification_sounds_10s</item>
+        <item>@string/less_notification_sounds_15s</item>
+        <item>@string/less_notification_sounds_30s</item>
+        <item>@string/less_notification_sounds_45s</item>
+        <item>@string/less_notification_sounds_1m</item>
+        <item>@string/less_notification_sounds_2m</item>
+        <item>@string/less_notification_sounds_5m</item>
+    </string-array>
+
+    <string-array name="less_notification_sounds_values" translatable="false">
+        <item>0</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>45000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
     </string-array>
 
 </resources>

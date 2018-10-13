@@ -20,7 +20,7 @@
     android:key="display_settings_screen"
     android:title="@string/display_settings"
     settings:keywords="@string/keywords_display"
-    settings:initialExpandedChildrenCount="4">
+    settings:initialExpandedChildrenCount="13">
 
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
@@ -70,11 +70,10 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout"/>
 
-    <SwitchPreference
-        android:key="auto_rotate"
-        android:title="@string/accelerometer_title"
-        settings:keywords="@string/keywords_auto_rotate"
-        settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
+    <Preference
+        android:key="display_rotation"
+        android:fragment="com.android.settings.preference.DisplayRotation"
+        android:title="@string/display_rotation_title" />
 
     <Preference
         android:key="color_mode"
@@ -82,28 +81,10 @@
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
         settings:keywords="@string/keywords_color_mode" />
 
-    <com.android.settings.display.DensityPreference
-        android:key="density"
-        android:title="@string/developer_smallest_width" />
-
     <Preference
-	android:key="screen_stabilization"
-	android:title="@string/screen_stabilization_title"
-	android:summary="@string/screen_stabilization_summary"
-	android:fragment="com.android.settings.custom.ScreenStabilization" />
-
-    <Preference
-        android:key="font_size"
-        android:title="@string/title_font_size"
-        android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
-        settings:controller="com.android.settings.display.FontSizePreferenceController"
-        settings:keywords="@string/keywords_display_font_size" />
-
-    <com.android.settings.display.ScreenZoomPreference
-        android:key="display_settings_screen_zoom"
-        android:title="@string/screen_zoom_title"
-        android:fragment="com.android.settings.display.ScreenZoomSettings"
-        settings:keywords="@string/screen_zoom_keywords" />
+	    android:key="screen_stabilization"
+	    android:title="@string/screen_stabilization_title"
+	    android:fragment="com.android.settings.custom.ScreenStabilization" />
 
     <SwitchPreference
         android:key="show_operator_name"
@@ -144,6 +125,25 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
+
+    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        android:key="enable_suggestions"
+        android:title="@string/dashboard_suggestions_title"
+        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
+        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
+        android:defaultValue="true" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
@@ -163,24 +163,30 @@
         <Preference
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
+
     </PreferenceCategory >
 
-    <Preference
-        android:key="vr_display_pref"
-        android:title="@string/display_vr_pref_title"
-        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+    <PreferenceCategory
+        android:key="density_category"
+        android:title="@string/density_category">
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
-        android:key="enable_conditions"
-        android:title="@string/dashboard_conditions_title"
-        android:summaryOn="@string/summary_dashboard_conditions_enabled"
-        android:summaryOff="@string/summary_dashboard_conditions_disabled"
-        android:defaultValue="true" />
+        <Preference
+            android:key="font_size"
+            android:title="@string/title_font_size"
+            android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
+            settings:controller="com.android.settings.display.FontSizePreferenceController"
+            settings:keywords="@string/keywords_display_font_size" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
-        android:key="enable_suggestions"
-        android:title="@string/dashboard_suggestions_title"
-        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
-        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
-        android:defaultValue="true" />
+        <com.android.settings.display.ScreenZoomPreference
+            android:key="display_settings_screen_zoom"
+            android:title="@string/screen_zoom_title"
+            android:fragment="com.android.settings.display.ScreenZoomSettings"
+            settings:keywords="@string/screen_zoom_keywords" />
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
