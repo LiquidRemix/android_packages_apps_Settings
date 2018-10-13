@@ -174,10 +174,17 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
+    // LiquidRemix settings
+    public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenStabilizationActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
-
-	// LiquidRemix settings
-    public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
+    public static class AmbientDisplayActivity extends SettingsActivity { /* empty */ }
+    public static class AmbientPlayActivity extends SettingsActivity { /* empty */ }
+    public static class NavigationActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
+    public static class WeatherActivity extends SettingsActivity { /* empty */ }
+    public static class ScreenActivity extends SettingsActivity { /* empty */ }
+    public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
+    public static class RotationActivity extends SettingsActivity { /* empty */ }
 }

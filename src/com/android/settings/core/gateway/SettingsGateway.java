@@ -16,12 +16,14 @@
 
 package com.android.settings.core.gateway;
 
+import com.android.settings.AmbientPlaySettings;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DeviceAdminSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
+import com.android.settings.preference.DisplayRotation;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
@@ -37,6 +39,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.DefaultAppSettings;
 import com.android.settings.applications.DirectoryAccessDetails;
+import com.android.settings.applications.ExpandedDesktopPreferenceFragment;
 import com.android.settings.applications.ManageDomainUrls;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
@@ -139,8 +142,12 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.liquid.liquidlounge.fragments.HeadsUpSettings;
 import com.liquid.liquidlounge.LiquidLoungeSettings;
+import com.liquid.liquidlounge.fragments.AmbientSettings;
+import com.liquid.liquidlounge.fragments.HeadsUpSettings;
+import com.liquid.liquidlounge.fragments.NavigationSettings;
+import com.liquid.liquidlounge.fragments.SmartPixels;
+import com.liquid.liquidlounge.fragments.WeatherSettings;
 
 public class SettingsGateway {
 
@@ -269,7 +276,14 @@ public class SettingsGateway {
             LiquidLoungeSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             ScreenStabilization.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            AmbientSettings.class.getName(),
+            AmbientPlaySettings.class.getName(),
+            NavigationSettings.class.getName(),
+            SmartPixels.class.getName(),
+            WeatherSettings.class.getName(),
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            DisplayRotation.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

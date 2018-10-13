@@ -3440,6 +3440,102 @@
                 android:permission="LiquidDozeService">
         </service>
 
+        <!-- Ambient display activity -->
+        <activity android:name="Settings$AmbientDisplayActivity"
+                android:label="@string/ambient_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.liquid.liquidlounge.fragments.AmbientSettings" />
+        </activity>
+
+        <!-- Ambient play activity -->
+        <activity android:name="Settings$AmbientPlayActivity"
+                android:label="@string/ambient_play_cat"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.AmbientPlaySettings" />
+        </activity>
+
+        <!-- Navigation activity -->
+        <activity android:name="Settings$NavigationActivity"
+                android:label="@string/navigation_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.liquid.liquidlounge.fragments.NavigationSettings" />
+        </activity>
+
+        <!-- Smart pixels activity -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.liquid.liquidlounge.fragments.SmartPixels" />
+        </activity>
+
+        <!-- Weather activity -->
+        <activity android:name="Settings$WeatherActivity"
+                android:label="@string/weather_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.liquid.liquidlounge.fragments.WeatherSettings" />
+        </activity>
+
+        <!-- Screen stabilization -->
+        <activity android:name="Settings$ScreenActivity"
+                android:label="@string/screen_stabilization_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.custom.ScreenStabilization" />
+        </activity>
+
+        <!-- Expanded desktop activity -->
+        <activity android:name="Settings$ExpandedDesktopActivity"
+                android:label="@string/expanded_desktop_pref_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+        </activity>
+
+        <!-- Rotation activity -->
+        <activity android:name="Settings$RotationActivity"
+                android:label="@string/display_rotation_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.preference.DisplayRotation" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
