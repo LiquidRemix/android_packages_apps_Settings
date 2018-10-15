@@ -188,4 +188,5 @@ public class Settings extends SettingsActivity {
     public static class ScreenActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
     public static class RotationActivity extends SettingsActivity { /* empty */ }
+    public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
 }

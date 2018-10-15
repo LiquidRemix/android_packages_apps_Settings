@@ -149,6 +149,7 @@ import com.liquid.liquidlounge.fragments.HeadsUpSettings;
 import com.liquid.liquidlounge.fragments.NavigationSettings;
 import com.liquid.liquidlounge.fragments.SmartPixels;
 import com.liquid.liquidlounge.fragments.WeatherSettings;
+import com.liquid.liquidlounge.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -285,7 +286,8 @@ public class SettingsGateway {
             SmartPixels.class.getName(),
             WeatherSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
-            DisplayRotation.class.getName()
+            DisplayRotation.class.getName(),
+            PieSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
