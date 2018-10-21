@@ -60,6 +60,8 @@ public class BatteryMeterView extends ImageView {
 
         int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
                 Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT);
+        if (userStyle == 3 || userStyle == 4)
+            userStyle = BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT;
         mDrawable = new BatteryMeterDrawable(context, frameColor, userStyle);
         mDrawable.setBatteryColorFilter(mAccentColorFilter);
         mDrawable.setWarningColorFilter(
