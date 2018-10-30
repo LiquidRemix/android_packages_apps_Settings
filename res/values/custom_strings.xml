@@ -367,4 +367,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Battery saver night mode toggle -->
+    <string name="battery_saver_night_mode_title">Battery saver dark mode</string>
+    <string name="battery_saver_night_mode_summary">Switch SystemUI theme to dark mode when battery saver is enabled.</string>
 </resources>
