@@ -3569,6 +3569,10 @@
                 android:value="com.liquid.liquidlounge.fragments.PieSettings" />
         </activity>
 
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.liquid.liquidlounge.fragments.gestures.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.liquid.liquidlounge.fragments.gestures.GestureAnywhereCreateGestureActivity" /> 
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
