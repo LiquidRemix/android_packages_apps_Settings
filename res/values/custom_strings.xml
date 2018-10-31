@@ -361,4 +361,9 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+    <!-- Full Swipe Gesture, All Hail DU -->
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action.</string>
+
 </resources>
