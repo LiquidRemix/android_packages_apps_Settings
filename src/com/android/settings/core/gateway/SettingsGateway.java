@@ -36,6 +36,7 @@ import com.android.settings.accounts.AccountDashboardFragment;
 import com.android.settings.accounts.AccountSyncSettings;
 import com.android.settings.accounts.ChooseAccountActivity;
 import com.android.settings.accounts.ManagedProfileSettings;
+import com.android.settings.ambient.history.AmbientPlayHistory;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.DefaultAppSettings;
 import com.android.settings.applications.DirectoryAccessDetails;
@@ -287,6 +288,7 @@ public class SettingsGateway {
             WeatherSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             DisplayRotation.class.getName(),
+            AmbientPlayHistory.class.getName(),
             PieSettings.class.getName(),
     };
 
