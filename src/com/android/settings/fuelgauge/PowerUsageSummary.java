@@ -592,6 +592,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> niks = super.getNonIndexableKeys(context);
+
                     niks.add(KEY_BATTERY_SAVER_SUMMARY);
                     return niks;
                 }
