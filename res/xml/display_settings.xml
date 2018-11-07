@@ -179,6 +179,27 @@
     </PreferenceCategory >
 
     <PreferenceCategory
+        android:title="@string/corners_category" > 
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
+            android:key="sysui_rounded_size"
+            android:title="@string/corner_radius"
+            android:max="25"
+            android:min="0"
+            settings:units=""
+            android:persistent="false" />
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
+            android:key="sysui_rounded_content_padding"
+            android:title="@string/content_padding"
+            android:max="10"
+            settings:min="0"
+            settings:units=""
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="density_category"
         android:title="@string/density_category">
 

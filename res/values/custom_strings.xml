@@ -390,4 +390,10 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Direct unlock</string>
     <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_category">Corners</string> 
+    <string name="corner_radius">Rounded Corner Radius</string>
+    <string name="content_padding">Corner Content Padding</string>
+
 </resources>
