@@ -396,4 +396,10 @@
     <string name="corner_radius">Rounded Corner Radius</string>
     <string name="content_padding">Corner Content Padding</string>
 
+    <!-- Notification styles -->
+    <string name="notification_style_title">Notification color</string>
+    <string name="notification_light">Light</string>
+    <string name="notification_dark">Dark</string>
+    <string name="notification_black">Black</string>
+
 </resources>
