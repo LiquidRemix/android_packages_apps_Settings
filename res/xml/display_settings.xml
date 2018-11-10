@@ -192,7 +192,7 @@
         <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
             android:key="sysui_rounded_content_padding"
             android:title="@string/content_padding"
-            android:max="10"
+            android:max="18"
             android:min="0"
             settings:units=""
             android:defaultValue="0"
