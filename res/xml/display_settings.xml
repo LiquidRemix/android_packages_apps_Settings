@@ -199,8 +199,9 @@
             android:key="sysui_rounded_size"
             android:title="@string/corner_radius"
             android:max="60"
-            android:min="0"
+            android:min="1"
             settings:units=""
+            android:defaultValue="1"
             android:persistent="false" />
 
         <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
