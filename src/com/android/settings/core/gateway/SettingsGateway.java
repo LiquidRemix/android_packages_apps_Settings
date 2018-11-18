@@ -149,7 +149,6 @@ import com.liquid.liquidlounge.fragments.AmbientSettings;
 import com.liquid.liquidlounge.fragments.HeadsUpSettings;
 import com.liquid.liquidlounge.fragments.NavigationSettings;
 import com.liquid.liquidlounge.fragments.SmartPixels;
-import com.liquid.liquidlounge.fragments.WeatherSettings;
 import com.liquid.liquidlounge.fragments.PieSettings;
 
 public class SettingsGateway {
@@ -285,7 +284,6 @@ public class SettingsGateway {
             AmbientPlaySettings.class.getName(),
             NavigationSettings.class.getName(),
             SmartPixels.class.getName(),
-            WeatherSettings.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             DisplayRotation.class.getName(),
             AmbientPlayHistory.class.getName(),
