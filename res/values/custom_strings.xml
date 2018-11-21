@@ -638,7 +638,7 @@
     <string name="qs_header_transparent">Transparent</string>
 
     <!-- Battery info -->
-    <string name="battery_info_title">Battery Info</string>
+    <string name="battery_info_title">Battery info</string>
     <string name="battery_info_summary">Advanced battery information</string>
     <string name="charge_full_design">Capacity</string>
     <string name="charge_cycle">Charge cycles</string>
@@ -647,5 +647,9 @@
     <string name="battery_status">Status</string>
     <string name="battery_voltage">Voltage</string>
     <string name="battery_health">Health</string>
+
+    <!-- Font manager -->
+    <string name="font_picker_title">Font manager</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 
 </resources>
