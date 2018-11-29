@@ -3541,18 +3541,6 @@
                 android:value="com.liquid.liquidlounge.fragments.SmartPixels" />
         </activity>
 
-        <!-- Weather activity -->
-        <activity android:name="Settings$WeatherActivity"
-                android:label="@string/weather_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.liquid.liquidlounge.fragments.WeatherSettings" />
-        </activity>
-
         <!-- Screen stabilization -->
         <activity android:name="Settings$ScreenActivity"
                 android:label="@string/screen_stabilization_title"
