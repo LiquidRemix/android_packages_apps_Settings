@@ -82,9 +82,9 @@
         settings:keywords="@string/keywords_color_mode" />
 
     <Preference
-	 android:key="screen_stabilization"
-	 android:title="@string/screen_stabilization_title"
-	 android:fragment="com.android.settings.custom.ScreenStabilization" />
+	    android:key="screen_stabilization"
+	    android:title="@string/screen_stabilization_title"
+	    android:fragment="com.android.settings.custom.ScreenStabilization" />
 
     <SwitchPreference
         android:key="show_operator_name"
@@ -135,24 +135,32 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
-        android:key="enable_conditions"
-        android:title="@string/dashboard_conditions_title"
-        android:summaryOn="@string/summary_dashboard_conditions_enabled"
-        android:summaryOff="@string/summary_dashboard_conditions_disabled"
-        android:defaultValue="true" />
+    <PreferenceCategory 
+        android:key="dashboard_category" 
+        android:title="@string/dashboard_category">
 
-    <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
-        android:key="enable_suggestions"
-        android:title="@string/dashboard_suggestions_title"
-        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
-        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
-        android:defaultValue="true" />
+        <com.liquid.liquidlounge.preferences.SystemSettingIntListPreference
+            android:key="theming_settings_dashboard_icons"
+            android:title="@string/theming_settings_dashboard_icons_title"
+            android:entries="@array/theming_settings_dashboard_icons_entries"
+            android:entryValues="@array/theming_settings_dashboard_icons_values"
+            android:defaultValue="0" />
 
-    <ListPreference
-        android:key="theme"
-        android:title="@string/color_theme"
-        android:summary="@string/summary_placeholder" />
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="enable_conditions"
+            android:title="@string/dashboard_conditions_title"
+            android:summaryOn="@string/summary_dashboard_conditions_enabled"
+            android:summaryOff="@string/summary_dashboard_conditions_disabled"
+            android:defaultValue="true" />
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="enable_suggestions"
+            android:title="@string/dashboard_suggestions_title"
+            android:summaryOn="@string/summary_dashboard_suggestions_enabled"
+            android:summaryOff="@string/summary_dashboard_suggestions_disabled"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="theme_category"
