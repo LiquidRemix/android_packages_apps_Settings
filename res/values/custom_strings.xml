@@ -656,7 +656,7 @@
 
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
 
     <!-- Settings dashboard icon style -->
@@ -668,5 +668,14 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Battery Charge Warning</string>
+    <string name="notification_sound_battery_charge_summary">Play a sound when battery reaches charge level</string>
+    <string name="notification_battery_charge_level_title">Battery Charge Warning</string>
+    <string name="notification_battery_charge_level_summary">Enable to play a sound when the battery reaches the specified level when charging</string>
+    <string name="notification_battery_charge_level_seek_bar">Battery Level</string>
+    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
+    <string name="notification_battery_charge_level_silent">Silent</string>
 
 </resources>
