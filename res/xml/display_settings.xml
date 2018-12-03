@@ -167,6 +167,13 @@
         android:title="@string/theme_category_title">
 
         <ListPreference
+            android:key="ui_style"
+            android:title="@string/ui_style_title"
+            android:persistent="false"
+            android:entries="@array/ui_style_entries"
+            android:entryValues="@array/ui_style_values" />
+
+        <ListPreference
             android:key="systemui_theme_style"
             android:title="@string/systemui_theme_style_title"
             android:entries="@array/systemui_theme_style_entries"

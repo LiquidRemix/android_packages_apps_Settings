@@ -667,4 +667,9 @@
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
+    <!-- UI styles -->
+    <string name="ui_style_title">UI style</string>
+    <string name="ui_pixel">Pixel</string>
+    <string name="ui_aosp">AOSP</string>
+
 </resources>
