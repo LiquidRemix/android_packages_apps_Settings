@@ -18,12 +18,15 @@ package com.android.settings.display;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.text.TextUtils;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
+import com.android.internal.statusbar.IStatusBarService;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 import libcore.util.Objects;
@@ -35,6 +38,7 @@ public class UiStylePreferenceController extends AbstractPreferenceController im
 
     private static final String UI_STYLE = "ui_style";
     private ListPreference mUiStyle;
+    private IStatusBarService mStatusBarService;
 
     public UiStylePreferenceController(Context context) {
         super(context);
@@ -69,6 +73,14 @@ public class UiStylePreferenceController extends AbstractPreferenceController im
             Settings.System.putInt(mContext.getContentResolver(), Settings.System.UI_STYLE, Integer.valueOf(value));
             int valueIndex = mUiStyle.findIndexOfValue(value);
             mUiStyle.setSummary(mUiStyle.getEntries()[valueIndex]);
+            IStatusBarService statusBarService = IStatusBarService.Stub.asInterface(ServiceManager.checkService(Context.STATUS_BAR_SERVICE));
+            if (statusBarService != null) {
+                try {
+                    statusBarService.restartUI();
+                } catch (RemoteException e) {
+                    // do nothing.
+                }
+            }
         }
         return true;
     }
