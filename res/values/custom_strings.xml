@@ -678,4 +678,7 @@
     <string name="notification_battery_charge_level_ringtone">Ringtone</string>
     <string name="notification_battery_charge_level_silent">Silent</string>
 
+    <!-- Build date -->
+    <string name="build_date">Build date</string>
+
 </resources>
