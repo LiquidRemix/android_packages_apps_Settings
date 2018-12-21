@@ -16,7 +16,6 @@
 
 package com.android.settings.core.gateway;
 
-import com.android.settings.AmbientPlaySettings;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DeviceAdminSettings;
 import com.android.settings.DisplaySettings;
@@ -283,7 +282,6 @@ public class SettingsGateway {
             ScreenStabilization.class.getName(),
             RunningServices.class.getName(),
             AmbientSettings.class.getName(),
-            AmbientPlaySettings.class.getName(),
             SmartPixels.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             DisplayRotation.class.getName(),
