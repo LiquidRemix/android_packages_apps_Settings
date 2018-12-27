@@ -198,6 +198,33 @@
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
 
+    </PreferenceCategory >
+
+    <PreferenceCategory
+        android:key="qs_category"
+        android:title="@string/qs_themes_category_title" >
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_fw"
+            android:title="@string/qs_bg_use_fw"
+            android:summary="@string/qs_bg_use_fw_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_wall"
+            android:title="@string/qs_bg_wall_title"
+            android:summary="@string/qs_bg_wall_summary"
+            android:defaultValue="false"
+            android:dependency="qs_panel_bg_use_fw" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="qs_panel_color"
+            android:title="@string/qs_panel_color_title"
+            android:defaultValue="0xffffff"
+            android:persistent="false"
+            android:dependency="qs_panel_bg_use_fw" />
+
         <ListPreference
             android:key="qs_header_style"
             android:title="@string/qs_header_style_title"
@@ -212,7 +239,7 @@
             android:entries="@array/qs_selector_entries"
             android:entryValues="@array/qs_selector_values" />
 
-    </PreferenceCategory >
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/corners_category" > 

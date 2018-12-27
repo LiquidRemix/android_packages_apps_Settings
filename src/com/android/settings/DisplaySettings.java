@@ -39,6 +39,7 @@ import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
 import com.android.settings.display.NotificationStylePreferenceController;
+import com.android.settings.display.QsColorPreferenceController;
 import com.android.settings.display.QsHeaderStylePreferenceController;
 import com.android.settings.display.QsTileStylePreferenceController;
 import com.android.settings.display.ProximityOnWakePreferenceController;
@@ -151,6 +152,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ContentPaddingPreferenceController(context));
         controllers.add(new NotificationStylePreferenceController(context));
+        controllers.add(new QsColorPreferenceController(context));
         controllers.add(new QsHeaderStylePreferenceController(context));
         controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(new RoundedCornersPreferenceController(context));
