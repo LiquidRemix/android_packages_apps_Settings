@@ -75,7 +75,7 @@
     <string name="charging_vibro_title">Charging vibration</string>
 
     <!-- Dashboard conditions -->
-    <string name="dashboard_category">Dashboard</string>
+    <string name="dashboard_category">Settings</string>
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
@@ -673,5 +673,11 @@
     <string name="ui_style_title">UI style</string>
     <string name="ui_pixel">Pixel</string>
     <string name="ui_aosp">AOSP</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch appearance</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oneplus">OnePlus</string>
 
 </resources>

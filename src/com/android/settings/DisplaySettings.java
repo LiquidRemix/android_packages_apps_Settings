@@ -43,6 +43,7 @@ import com.android.settings.display.QsHeaderStylePreferenceController;
 import com.android.settings.display.QsTileStylePreferenceController;
 import com.android.settings.display.ProximityOnWakePreferenceController;
 import com.android.settings.display.RoundedCornersPreferenceController;
+import com.android.settings.display.SwitchStylePreferenceController;
 import com.android.settings.display.UiStylePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
@@ -153,6 +154,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new QsHeaderStylePreferenceController(context));
         controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(new RoundedCornersPreferenceController(context));
+        controllers.add(new SwitchStylePreferenceController(context));
         controllers.add(new UiStylePreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
