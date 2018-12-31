@@ -217,6 +217,13 @@
     <PreferenceCategory
         android:title="@string/corners_category" > 
 
+        <com.liquid.liquidlounge.preferences.SecureSettingSwitchPreference
+            android:key="sysui_rounded_fwvals"
+            android:title="@string/corner_fwvals"
+            android:summary="@string/corner_fwvals_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+
         <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
             android:key="sysui_rounded_size"
             android:title="@string/corner_radius"
@@ -224,7 +231,8 @@
             android:min="1"
             settings:units=""
             android:defaultValue="1"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
 
         <com.liquid.liquidlounge.preferences.SystemSettingSeekBarPreference
             android:key="sysui_rounded_content_padding"
@@ -233,7 +241,8 @@
             android:min="0"
             settings:units=""
             android:defaultValue="0"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
 
     </PreferenceCategory>
 
