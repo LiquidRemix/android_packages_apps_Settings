@@ -153,12 +153,6 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
-        mNm.forcePulseLedLight(-1, -1, -1);
-    }
-
-    @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
         mControllers = new ArrayList<>();
         mControllers.add(new HeaderPreferenceController(context, this));
