@@ -35,6 +35,7 @@ import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
+import com.android.settings.deviceinfo.LiquidVersionPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
@@ -111,6 +112,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
         controllers.add(new RegulatoryInfoPreferenceController(context));
         controllers.add(new SafetyInfoPreferenceController(context));
+        controllers.add(new LiquidVersionPreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));

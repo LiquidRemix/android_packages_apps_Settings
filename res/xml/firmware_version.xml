@@ -22,10 +22,15 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Liquid logo -->
+    <PreferenceScreen
+        android:key="liquid_logo"
+	android:layout="@layout/liquid_logo" />
+
     <!-- Liquid version -->
     <Preference
-        android:key="liquid_version"
-        android:title="@string/liquid_version"
+        android:key="rom_version_title"
+        android:title="@string/rom_version_title"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LiquidVersionPreferenceController"/>

@@ -13,9 +13,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Liquid version -->
-    <string name="liquid_version">Liquid Remix Build</string>
-    <string name="liquid_version_default">10.1</string>
+    <!-- Liquid version in About phone -->
+    <string name="rom_version_title">Liquid Remix version</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
