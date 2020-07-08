@@ -16,12 +16,6 @@
     <!-- Liquid version in About phone -->
     <string name="rom_version_title">Liquid Remix version</string>
 
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-
     <!-- Liquid Lounge -->
     <string name="liquidlounge_title">Liquid Lounge</string>
     <string name="liquidlounge_activity_summary">Personalize custom features</string>
@@ -35,4 +29,7 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total RAM</string>
 
+    <!-- Liquid version -->
+    <string name="liquid_version">Liquid Remix Build</string>
+    <string name="liquid_version_default">10.1</string>
 </resources>
